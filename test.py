@@ -9,4 +9,4 @@ gmap.heatmap( [39.254, 39.254, 39.254, 39.254], [-76.711, -76.711, -76.711, -76.
 #draw the map
 gmap.draw( "mymap.html" )
 
-#now extract the outlines of all the buildings on campus
+#now extract the outlines of all the buildings on campus and store the positions in a graph
