@@ -9,35 +9,37 @@ import pandas as pd
 
 def meaningful_edge(edges):
     '''if distance out of 1/2 standard deviation of the mean, remove the edge from the edges list'''
-    df = pd.DataFrame(edges)
-    df.columns = ['from', 'to', 'distance']
-    df['distance'] = df['distance'].astype(float)
-    mean = df['distance'].mean()
-    std = df['distance'].std()
-    df = df[(df['distance'] > mean - std/2) & (df['distance'] < mean + std/2)]
-    return df
-    
+    data_frame = pd.DataFrame(edges)
+    data_frame.columns = ['from', 'to', 'distance']
+    data_frame['distance'] = data_frame['distance'].astype(float)
+    mean = data_frame['distance'].mean()
+    std = data_frame['distance'].std()
+    data_frame = data_frame[(data_frame['distance'] > mean - std/2)
+                            & (data_frame['distance'] < mean + std/2)]
+    return data_frame
 
-def get_shortest_paths_distances(g, pairs, edge_weight_name):
+
+def get_shortest_paths_distances(graph, pairs, edge_weight_name):
     '''get the shortest path distances between all pairs of nodes'''
     distances = {}
     for pair in pairs:
-        distances[pair] = nx.shortest_path_length(g, pair[0], pair[1], weight=edge_weight_name)
+        distances[pair] = nx.shortest_path_length(graph, pair[0], pair[1], weight=edge_weight_name)
     return distances
 
 def create_complete_graph(pair_weights, flip_weights=True):
     '''create a complete graph from the pair weights'''
-    g = nx.Graph()
+    graph = nx.Graph()
     for k, v in pair_weights.items():
         wt_i = -v if flip_weights else v
-        g.add_edge(k[0], k[1], weight=wt_i)
-    return g
+        graph.add_edge(k[0], k[1], weight=wt_i)
+    return graph
 
 def add_augmenting_path_to_graph(g, min_pairs):
     '''add the augmenting path to the graph'''
     graph_aug = nx.MultiGraph(g.copy())
     for pair in min_pairs:
-        graph_aug.add_edge(pair[0], pair[1], weight=nx.shortest_path_length(g, pair[0], pair[1]), trail="augmented")
+        graph_aug.add_edge(pair[0], pair[1],
+                           weight=nx.shortest_path_length(g, pair[0], pair[1]), trail="augmented")
     return graph_aug
 
 def create_eulerian_circuit(g_aug, g_full, start_node=None):
@@ -82,6 +84,11 @@ def create_cpp_edgelist(euler_circuit):
             cpp_edgelist[edge][2]['visits'] = 1
     return list(cpp_edgelist.values())
 
+def write_to_csv(graph, target):
+    '''takes in a networkx graph then adds every node and edge to the csv file''' 
+    
+
+
 
 def main():
     '''main function'''
@@ -100,7 +107,7 @@ def main():
     for i, elrow in edgelist.iterrows():
         if elrow[0] != "node1":
             g.add_edge(elrow[0], elrow[1], weight = elrow[2])
-        
+
     for i, nlrow in nodelist.iterrows():
         if nlrow[0] != "name":
             # g.nodes[nlrow["name"]] = nlrow[1:].to_dict()
@@ -112,10 +119,10 @@ def main():
 
     node_positions = {}
     for node in g.nodes(data=True):
-        node_positions[node[0]] = (node[1]['attr_dict']['longitude'], 
+        node_positions[node[0]] = (node[1]['attr_dict']['longitude'],
                                    node[1]['attr_dict']['latitude'])
 
-    
+
     dict(list(node_positions.items())[0:5])
 
     plt.figure(figsize=(8,6))
@@ -153,14 +160,17 @@ def main():
     plt.figure(figsize=(8,6))
     nx.draw(g_odd_complete, pos = node_positions, node_size=20, alpha=.05)
     g_odd_complete_min_edges = nx.Graph(odd_matching)
-    nx.draw(g_odd_complete_min_edges, pos = node_positions, 
+    nx.draw(g_odd_complete_min_edges, pos = node_positions,
             node_size=20, edge_color='b',node_color='r')
     plt.title('Minimum Weight Matching of Odd Nodes')
     plt.show()
+    
+    # =================================================================
+    # =================================================================
 
     plt.figure(figsize=(8,6))
     nx.draw(g,pos=node_positions, node_size=20, alpha=.1, node_color='black')
-    nx.draw(g_odd_complete_min_edges, pos = node_positions, 
+    nx.draw(g_odd_complete_min_edges, pos = node_positions,
             node_size=20, edge_color='b',node_color='r', alpha=1)
     plt.title('Minimum Weight Matching Original Graph')
     plt.show()
@@ -174,7 +184,7 @@ def main():
 
     # for i, edge in enumerate(euler_circuit):
         # print(f'Edge {i}: {edge}')
-        
+
 
     cpp_edgelist = create_cpp_edgelist(euler_circuit)
     print(f'# of edges in cpp edgelist: {len(cpp_edgelist)}')
@@ -185,7 +195,8 @@ def main():
     visit_colors = {1:'lightgray', 2:'b'}
     edge_colors = [visit_colors[e[2]['visits']] for e in g_cpp.edges(data=True)]
     node_colors = ['red'  if node in nodes_odd_degree else 'lightgray' for node in g_cpp.nodes()]
-    nx.draw_networkx(g_cpp, pos=node_positions, node_size=20, node_color=node_colors, edge_color=edge_colors, with_labels=False)
+    nx.draw_networkx(g_cpp, pos=node_positions, node_size=20,
+                     node_color=node_colors, edge_color=edge_colors, with_labels=False)
     plt.title('Eulerian Circuit')
     plt.axis('off')
     plt.show()
