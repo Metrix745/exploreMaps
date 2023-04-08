@@ -1,0 +1,191 @@
+node1,node2,distance
+UMBC Fine Arts Building,Engineering Building,0.09583021572875587
+UMBC Fine Arts Building,UMBC Information Technology and Engineering (ITE) Building,0.1986044193636053
+UMBC Fine Arts Building,UMBC Sherman Hall,0.20499380631943326
+UMBC Fine Arts Building,Administration Building,0.26947004457101537
+UMBC Fine Arts Building,Sondheim Hall,0.2422563511748353
+UMBC Fine Arts Building,Retriever Activities Center,0.3239250166945357
+UMBC Fine Arts Building,UMBC Interdisciplinary Life Sciences Building,0.3478143606537717
+UMBC Fine Arts Building,Lecture Hall 1,0.2297449157412819
+UMBC Fine Arts Building,Math and Psych,0.19198742747197908
+UMBC Fine Arts Building,The Commons,0.35760628974907716
+UMBC Fine Arts Building,Albin O. Kuhn Library and Gallery,0.34112516594518927
+UMBC Fine Arts Building,UMBC Performing Arts & Humanities Building,0.22723285616478528
+UMBC Fine Arts Building,UMBC Physics building,0.5194598406584198
+UMBC Fine Arts Building,UMBC Public Policy Building,0.5892251078791064
+UMBC Fine Arts Building,True Grit's,0.7742009820488739
+UMBC Fine Arts Building,UMBC University Center,0.11142790740710588
+UMBC Fine Arts Building,UMBC Biological Sciences,0.18264606681359088
+UMBC Fine Arts Building,Meyerhoff Building,0.10086828625908716
+UMBC Fine Arts Building,Pool,0.2800491767064593
+Engineering Building,UMBC Information Technology and Engineering (ITE) Building,0.10567978431819382
+Engineering Building,UMBC Sherman Hall,0.13891502086789145
+Engineering Building,Administration Building,0.20743270583356524
+Engineering Building,Sondheim Hall,0.21430124401577916
+Engineering Building,Retriever Activities Center,0.295220543890554
+Engineering Building,UMBC Interdisciplinary Life Sciences Building,0.3823253964454479
+Engineering Building,Lecture Hall 1,0.2924740721597404
+Engineering Building,Math and Psych,0.21592812270212308
+Engineering Building,The Commons,0.4245842018843737
+Engineering Building,Albin O. Kuhn Library and Gallery,0.435163380566887
+Engineering Building,UMBC Performing Arts & Humanities Building,0.18151127531341457
+Engineering Building,UMBC Physics building,0.5757982537642656
+Engineering Building,UMBC Public Policy Building,0.657306715758891
+Engineering Building,True Grit's,0.846929953626436
+Engineering Building,UMBC University Center,0.09636437992052213
+Engineering Building,UMBC Biological Sciences,0.24119088777393582
+Engineering Building,Meyerhoff Building,0.16830688587959286
+Engineering Building,Pool,0.2905110496592812
+UMBC Information Technology and Engineering (ITE) Building,UMBC Sherman Hall,0.0891513590576739
+UMBC Information Technology and Engineering (ITE) Building,Administration Building,0.14291079645257854
+UMBC Information Technology and Engineering (ITE) Building,Sondheim Hall,0.19571695350337545
+UMBC Information Technology and Engineering (ITE) Building,Retriever Activities Center,0.2622999117024224
+UMBC Information Technology and Engineering (ITE) Building,UMBC Interdisciplinary Life Sciences Building,0.4114013902997561
+UMBC Information Technology and Engineering (ITE) Building,Lecture Hall 1,0.35582612678578474
+UMBC Information Technology and Engineering (ITE) Building,Math and Psych,0.25286849633103164
+UMBC Information Technology and Engineering (ITE) Building,The Commons,0.4856457536747158
+UMBC Information Technology and Engineering (ITE) Building,Albin O. Kuhn Library and Gallery,0.52984156242935
+UMBC Information Technology and Engineering (ITE) Building,UMBC Performing Arts & Humanities Building,0.21577134109617124
+UMBC Information Technology and Engineering (ITE) Building,UMBC Physics building,0.6206884499247801
+UMBC Information Technology and Engineering (ITE) Building,UMBC Public Policy Building,0.7142253908266383
+UMBC Information Technology and Engineering (ITE) Building,True Grit's,0.9074013019852534
+UMBC Information Technology and Engineering (ITE) Building,UMBC University Center,0.1425527046973375
+UMBC Information Technology and Engineering (ITE) Building,UMBC Biological Sciences,0.3051986941059911
+UMBC Information Technology and Engineering (ITE) Building,Meyerhoff Building,0.24820281425265459
+UMBC Information Technology and Engineering (ITE) Building,Pool,0.30263230681619524
+UMBC Sherman Hall,Administration Building,0.06852361471433466
+UMBC Sherman Hall,Sondheim Hall,0.107309072122205
+UMBC Sherman Hall,Retriever Activities Center,0.1741229020155554
+UMBC Sherman Hall,UMBC Interdisciplinary Life Sciences Building,0.3317451606454842
+UMBC Sherman Hall,Lecture Hall 1,0.2989055075350239
+UMBC Sherman Hall,Math and Psych,0.184319845456719
+UMBC Sherman Hall,The Commons,0.4225643578426035
+UMBC Sherman Hall,Albin O. Kuhn Library and Gallery,0.5015206118053919
+UMBC Sherman Hall,UMBC Performing Arts & Humanities Building,0.2949627850118966
+UMBC Sherman Hall,UMBC Physics building,0.5454755008639947
+UMBC Sherman Hall,UMBC Public Policy Building,0.6450404124495525
+UMBC Sherman Hall,True Grit's,0.8391959832806065
+UMBC Sherman Hall,UMBC University Center,0.10615314739296353
+UMBC Sherman Hall,UMBC Biological Sciences,0.25187700761902254
+UMBC Sherman Hall,Meyerhoff Building,0.21541728397724472
+UMBC Sherman Hall,Pool,0.21907883297855477
+Administration Building,Sondheim Hall,0.09466188456523472
+Administration Building,Retriever Activities Center,0.12938894105280987
+Administration Building,UMBC Interdisciplinary Life Sciences Building,0.32737264758750484
+Administration Building,Lecture Hall 1,0.3256779792890216
+Administration Building,Math and Psych,0.2057910251338861
+Administration Building,The Commons,0.43914731254890027
+Administration Building,Albin O. Kuhn Library and Gallery,0.5452418268830972
+Administration Building,UMBC Performing Arts & Humanities Building,0.3571946680463803
+Administration Building,UMBC Physics building,0.5442274344566728
+Administration Building,UMBC Public Policy Building,0.6510239030239234
+Administration Building,True Grit's,0.844913939240223
+Administration Building,UMBC University Center,0.16316058384173723
+Administration Building,UMBC Biological Sciences,0.2842069159520928
+Administration Building,Meyerhoff Building,0.26439461098787587
+Administration Building,Pool,0.21146731935014612
+Sondheim Hall,Retriever Activities Center,0.08255973703513492
+Sondheim Hall,UMBC Interdisciplinary Life Sciences Building,0.23375359657418918
+Sondheim Hall,Lecture Hall 1,0.23830550317736587
+Sondheim Hall,Math and Psych,0.11950001410613094
+Sondheim Hall,The Commons,0.3459315721944537
+Sondheim Hall,Albin O. Kuhn Library and Gallery,0.46867283265551696
+Sondheim Hall,UMBC Performing Arts & Humanities Building,0.38932017739155356
+Sondheim Hall,UMBC Physics building,0.45040354311283143
+Sondheim Hall,UMBC Public Policy Building,0.5563988746872621
+Sondheim Hall,True Grit's,0.750345034735047
+Sondheim Hall,UMBC University Center,0.13235843096683622
+Sondheim Hall,UMBC Biological Sciences,0.20234732020959242
+Sondheim Hall,Meyerhoff Building,0.20353854819396106
+Sondheim Hall,Pool,0.11796810816873195
+Retriever Activities Center,UMBC Interdisciplinary Life Sciences Building,0.2288353518232744
+Retriever Activities Center,Lecture Hall 1,0.2811863329544486
+Retriever Activities Center,Math and Psych,0.17496169631517214
+Retriever Activities Center,The Commons,0.36634829451104994
+Retriever Activities Center,Albin O. Kuhn Library and Gallery,0.5212349239319904
+Retriever Activities Center,UMBC Performing Arts & Humanities Building,0.46642901883258603
+Retriever Activities Center,UMBC Physics building,0.4408030812330709
+Retriever Activities Center,UMBC Public Policy Building,0.5549429111360927
+Retriever Activities Center,True Grit's,0.7459103938742976
+Retriever Activities Center,UMBC University Center,0.21480268191009425
+Retriever Activities Center,UMBC Biological Sciences,0.2566104655386007
+Retriever Activities Center,Meyerhoff Building,0.27589477342337554
+Retriever Activities Center,Pool,0.12447661444107866
+UMBC Interdisciplinary Life Sciences Building,Lecture Hall 1,0.14890546581048078
+UMBC Interdisciplinary Life Sciences Building,Math and Psych,0.16643776355803871
+UMBC Interdisciplinary Life Sciences Building,The Commons,0.15404958326488244
+UMBC Interdisciplinary Life Sciences Building,Albin O. Kuhn Library and Gallery,0.36281405845843434
+UMBC Interdisciplinary Life Sciences Building,UMBC Performing Arts & Humanities Building,0.5610837272372089
+UMBC Interdisciplinary Life Sciences Building,UMBC Physics building,0.21686239586942266
+UMBC Interdisciplinary Life Sciences Building,UMBC Public Policy Building,0.3268967021004832
+UMBC Interdisciplinary Life Sciences Building,True Grit's,0.5194044705632693
+UMBC Interdisciplinary Life Sciences Building,UMBC University Center,0.28749075216689485
+UMBC Interdisciplinary Life Sciences Building,UMBC Biological Sciences,0.17421115128396064
+UMBC Interdisciplinary Life Sciences Building,Meyerhoff Building,0.2509799755477228
+UMBC Interdisciplinary Life Sciences Building,Pool,0.1159270541624547
+Lecture Hall 1,Math and Psych,0.1199831926582994
+Lecture Hall 1,The Commons,0.13218711475659267
+Lecture Hall 1,Albin O. Kuhn Library and Gallery,0.2417915383940202
+Lecture Hall 1,UMBC Performing Arts & Humanities Building,0.4560202925717506
+Lecture Hall 1,UMBC Physics building,0.2897326294651717
+Lecture Hall 1,UMBC Public Policy Building,0.36483431349013845
+Lecture Hall 1,True Grit's,0.5551063110405392
+Lecture Hall 1,UMBC University Center,0.2137100638785972
+Lecture Hall 1,UMBC Biological Sciences,0.05153235010407504
+Lecture Hall 1,Meyerhoff Building,0.12948704883855824
+Lecture Hall 1,Pool,0.16385263158213714
+Math and Psych,The Commons,0.238311267741268
+Math and Psych,Albin O. Kuhn Library and Gallery,0.3503396181229009
+Math and Psych,UMBC Performing Arts & Humanities Building,0.39549105939025353
+Math and Psych,UMBC Physics building,0.36824795865251125
+Math and Psych,UMBC Public Policy Building,0.46232347279526936
+Math and Psych,True Grit's,0.6561343423173134
+Math and Psych,UMBC University Center,0.12129502793895412
+Math and Psych,UMBC Biological Sciences,0.08353660649694193
+Math and Psych,Meyerhoff Building,0.11154986106720832
+Math and Psych,Pool,0.0897954387810668
+The Commons,Albin O. Kuhn Library and Gallery,0.23013539086545184
+The Commons,UMBC Performing Arts & Humanities Building,0.584828441121706
+The Commons,UMBC Physics building,0.170757818178784
+The Commons,UMBC Public Policy Building,0.23286316098519352
+The Commons,True Grit's,0.42306705475529277
+The Commons,UMBC University Center,0.3445545284814191
+The Commons,UMBC Biological Sciences,0.18367643010222426
+The Commons,Meyerhoff Building,0.2595124069794724
+The Commons,Pool,0.242208845728903
+Albin O. Kuhn Library and Gallery,UMBC Performing Arts & Humanities Building,0.5391983571848646
+Albin O. Kuhn Library and Gallery,UMBC Physics building,0.3718575822377787
+Albin O. Kuhn Library and Gallery,UMBC Public Policy Building,0.36842869461817723
+Albin O. Kuhn Library and Gallery,True Grit's,0.509774159374654
+Albin O. Kuhn Library and Gallery,UMBC University Center,0.39757690446228655
+Albin O. Kuhn Library and Gallery,UMBC Biological Sciences,0.2668047295935577
+Albin O. Kuhn Library and Gallery,Meyerhoff Building,0.2865769466891293
+Albin O. Kuhn Library and Gallery,Pool,0.4055998456290285
+UMBC Performing Arts & Humanities Building,UMBC Physics building,0.7451716217784006
+UMBC Performing Arts & Humanities Building,UMBC Public Policy Building,0.8163270001587933
+UMBC Performing Arts & Humanities Building,True Grit's,1.0
+UMBC Performing Arts & Humanities Building,UMBC University Center,0.2777727505191037
+UMBC Performing Arts & Humanities Building,UMBC Biological Sciences,0.4071659600281973
+UMBC Performing Arts & Humanities Building,Meyerhoff Building,0.32653324544955886
+UMBC Performing Arts & Humanities Building,Pool,0.4720222541803359
+UMBC Physics building,UMBC Public Policy Building,0.12090792460395064
+UMBC Physics building,True Grit's,0.3054540217977971
+UMBC Physics building,UMBC University Center,0.4869430290798649
+UMBC Physics building,UMBC Biological Sciences,0.338025114708913
+UMBC Physics building,Meyerhoff Building,0.4189270605693743
+UMBC Physics building,Pool,0.3327632032243666
+UMBC Public Policy Building,True Grit's,0.1942515640281315
+UMBC Public Policy Building,UMBC University Center,0.5750747967719121
+UMBC Public Policy Building,UMBC Biological Sciences,0.41616793459580814
+UMBC Public Policy Building,Meyerhoff Building,0.49218501754091165
+UMBC Public Policy Building,Pool,0.44085179623622694
+True Grit's,UMBC University Center,0.7673028222975015
+True Grit's,UMBC Biological Sciences,0.6066375414974414
+True Grit's,Meyerhoff Building,0.6799325612310672
+True Grit's,Pool,0.6342405302465819
+UMBC University Center,UMBC Biological Sciences,0.1627782821566797
+UMBC University Center,Meyerhoff Building,0.11105753834322635
+UMBC University Center,Pool,0.19439157046375993
+UMBC Biological Sciences,Meyerhoff Building,0.08182107712087822
+UMBC Biological Sciences,Pool,0.15215243686960042
+Meyerhoff Building,Pool,0.20053380180081504
