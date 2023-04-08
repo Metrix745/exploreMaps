@@ -2,7 +2,7 @@
 
 import argparse
 import itertools
-import copy
+# import copy
 import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -130,7 +130,7 @@ def main():
     g_odd_complete = create_complete_graph(odd_node_pairs_shortest_paths, flip_weights=True)
     
     plt.figure(figsize=(8,6))
-    pos_random=nx.random_layout(g_odd_complete)
+    # pos_random=nx.random_layout(g_odd_complete)
     nx.draw_networkx_nodes(g_odd_complete, pos=node_positions, node_size=10, node_color='b')
     nx.draw_networkx_edges(g_odd_complete, pos=node_positions, edge_color='r', width=1, alpha =0.1)
     plt.axis('off')
